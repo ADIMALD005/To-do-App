@@ -51,18 +51,18 @@ const TodoList = () => {
    },[todoList]);
   return (
     <>
-        <section className='flex justify-center items-center min-h-160'>
-           <div className='bg-white w-3/10 h-120 rounded-lg p-7'>
+        <section className='flex justify-center items-center h-screen'>
+           <div className='bg-amber-50 lg:w-2/5 md:w-1/2 sm:w-full p-7 h-120 rounded-lg'>
 
              {/* ------title----- */}
              <div className='flex items-center  gap-2 mt-7'>
                 <img className='w-7' src={todo_tag}/>
-                <h1 className='text-3xl font-semibold'>To-Do List</h1>
+                <h1 className='lg:text-3xl md:text-2xl sm:text-1xl font-semibold'>To-Do List</h1>
              </div>
            
            {/* ------input box----- */}
             <div className='flex items-center my-7 rounded-full  bg-gray-200 '>
-                  <input ref={inputRef} className='h-14 flex-1 bg-transparent 
+                  <input ref={inputRef} className='lg:h-14 md:h-10 sm:h-5 flex-1 bg-transparent 
                   outline-none border-0 pl-6 pr-2 cursor-pointer' type='text'  placeholder='Add your task' />
 
                   <button 

@@ -3,7 +3,7 @@ import TodoList from './Components/TodoList'
 
 const App = () => {
   return (
-    <div className='bg-stone-900 h-100vh '>
+    <div className='bg-stone-900 h-svh'>
       < TodoList />
     </div>
   )
